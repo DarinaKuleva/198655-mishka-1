@@ -1,17 +1,78 @@
 .promo {
   font-size: 15px;
+  width: 320px;
+  margin: 0 auto;
 
   &__title {
     font-size: 25px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
   }
 
   &__type {
     font-size: 17px;
+    line-height: 20px;
     color: $lite-green;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+   &__text {
+    font-size: 15px;
+    line-height: 24px;
+    color: $text-color;
+    padding-right: 11px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  &__table {
+    color: $text-color;
+    height: 123px;
+  }
+
+  &__image {
+    margin-top: 29px;
+    margin-bottom: 29px;
   }
 
   &__footer {
     font-size: 17px;
     font-weight: bold;
+    text-align: center;
   }
+
+  &__wrapper {
+    width: 260px;
+    margin: 0 auto;
+  }
+}
+
+.promo-footer {
+  color: $text-color;
+  &__text {
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .promo {
+    width: 668px;
+    &__wrapper {
+      width: 668px;
+  }
+  }
+}
+
+@media (min-width: 1250px) {
+  .promo {
+    width: 1050px;
+    &__wrapper {
+      width: 1050px;
+  }
+  }
+
 }

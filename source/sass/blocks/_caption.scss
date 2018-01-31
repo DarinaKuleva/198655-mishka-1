@@ -55,6 +55,12 @@
       &__item {
         flex-grow: 2;
       }
+      &--furniture {
+        width: 50%;
+  }
+      &--toy {
+        width: 50%;
+  }
 
   }
     }
@@ -68,6 +74,7 @@
         padding-right: 220px;
         padding-bottom: 350px;
         padding-left: 220px;
+
         }
   }
     }

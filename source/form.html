@@ -10,29 +10,38 @@
   <body>
     <header class="page-header">
       <nav class="main-nav">
+      <div class="main-nav__wrapper">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <ul class="main-nav">
-          <li class="main-nav__item">
-            <a href="index.html" class="logo">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item-logo">
+            <a href="./" class="logo">
             <img src="img/mobile/logo-mobile.png" alt="mishka" height="35px" width="86px">
             </a>
           </li>
-          <li class="main-nav__item">
+          <li class="main-nav__item main-nav__item-catalog">
             <a href="catalog.html" class="main-nav__link">Каталог товаров</a>
           </li>
-          <li class="main-nav__item">
-            <a href="./" class="main-nav__link">Вязание на заказ</a>
+          <li class="main-nav__item main-nav__item-knit">
+            <a href="form.html" class="main-nav__link">Вязание на заказ</a>
           </li>
-          <li class="main-nav__item">
+          <li class="main-nav__item main-nav__item-search">
+            <a href="catalog.html" class="main-nav__link">Поиск по сайту</a>
+          </li>
+          <li class="main-nav__item main-nav__item-basket">
+            <a href="./" class="main-nav__link">Корзина:пока пуста</a>
+          </li>
+          <li class="main-nav__item main-nav__item-free main-nav__item-none">
+            <a href="./" class="main-nav__link">Бесплатная доставка по россии</a>
+          </li>
+          <li class="main-nav__item main-nav__item-none main-nav__item-new">
             <a href="./" class="main-nav__link">Новые поступления</a>
           </li>
-          <li class="main-nav__item">
+          <li class="main-nav__item main-nav__item-none main-nav__item-sale">
             <a href="./" class="main-nav__link">Распродажа</a>
           </li>
-          <li class="main-nav__item">
-            <a href="./" class="main-nav__link">Корзина</a>
-          </li>
+
         </ul>
+        </div>
       </nav>
     </header>
     <main class="page-main">
@@ -124,27 +133,32 @@
       </section>
     </main>
     <footer class="page-footer">
-      <div class="footer-wrapper">
+      <div class="page-footer__wrapper">
+      <div class="page-footer__logo">
+        <a href="./" class="logo">
+            <img src="img/mobile/logo-mobile.png" alt="mishka" height="35px" width="86px">
+            </a>
+      </div>
         <div class="page-footer__social social">
-          <ul class="social__list">
+          <ul class="page-footer__list">
             <li class="social__item">
               <a class="social__link social__link--inst" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
-              <img class="social__img social__img--inst" src="http://placehold.it/150x100" alt="Мы в Инстаграме">
+              <img class="social__img social__img--inst" src="http://placehold.it/150x100" alt="Мы в Инстаграме" width="20px" height="20px">
             </li>
             <li class="social__item">
               <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
-              <img class="social__img social__img--facebook" src="http://placehold.it/150x100" alt="Мы в Фейсбуке">
+              <img class="social__img social__img--facebook" src="http://placehold.it/150x100" alt="Мы в Фейсбуке" width="20px" height="20px">
             </li>
             <li class="social__item">
               <a class="social__link social__link--twitter" href="https://www.twitter.com/htmlacademy">Мы в Твиттере</a>
-              <img class="social__img social__img--twitter" src="http://placehold.it/150x100" alt="Мы в Твиттере">
+              <img class="social__img social__img--twitter" src="http://placehold.it/150x100" alt="Мы в Твиттере" width="20px" height="20px">
             </li>
           </ul>
         </div>
         <div class="page-footer__copyright copyright">
           <b class="copyright__text">Разработано:</b>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img src="http://placehold.it/150x100" alt="Html Academy">
+          <img src="http://placehold.it/150x100" alt="Html Academy" width="20px" height="20px">
           </a>
         </div>
       </div>

@@ -3,6 +3,8 @@
   font-weight: bold;
   display: flex;
   flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
 
   &__wrapper {
     width: 260px;
@@ -28,6 +30,7 @@
 
 @media (min-width: 768px) {
   .about {
+      width: 768px;
       flex-direction: row;
     &__wrapper {
       width: 668px;
@@ -50,6 +53,7 @@
 }
 @media (min-width: 1250px) {
   .about {
+    width: 1250px;
     &__wrapper {
       width: 1050px;
     }

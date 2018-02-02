@@ -32,6 +32,11 @@
     font-size: 14px;
     color: $text-color;
   }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .order-form {
@@ -39,6 +44,8 @@
     font-size: 17px;
     font-weight: bold;
     color: $lite-green;
+    margin: 0;
+    padding: 0;
   }
 
   &__group {
@@ -51,6 +58,7 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -63,8 +71,23 @@
       font-size: 17px;
       font-weight: 400;
       line-height: 30px;
-
     }
+
+    &__fb {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+    }
+
+    &__desc {
+      order: 3;
+    }
+  }
+  .order-form {
+    &__wrapper {
+    flex-direction: row;
+    flex-wrap: no-wrap;
+  }
   }
 }
 

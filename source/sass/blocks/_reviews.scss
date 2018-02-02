@@ -98,10 +98,9 @@
     }
 
     &__write {
-      margin: 0;
-    }
-
+      position: absolute;
   }
+}
 }
 
 @media (min-width: 1250px) {

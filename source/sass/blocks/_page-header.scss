@@ -119,6 +119,7 @@
       width: 20%;
       order: 6;
       display: block;
+      text-align: start;
     }
 
     &__item-new {
@@ -129,10 +130,11 @@
     }
 
     &__item-sale{
-      width: 50%;
+      width: 20%;
       order: 5;
       display: block;
       text-align: start;
+      margin-right: auto;
     }
 
   }

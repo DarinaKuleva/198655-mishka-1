@@ -61,6 +61,7 @@
 
 @media (min-width: 768px) {
   .reviews {
+    position: relative;
     width: 768px;
     background: url("../img/tablet/bg-reviews-tablet.jpg") no-repeat left;
     &__wrapper {
@@ -99,6 +100,7 @@
 
     &__write {
       position: absolute;
+      top: 135px;
   }
 }
 }

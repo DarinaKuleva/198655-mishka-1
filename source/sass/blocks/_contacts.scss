@@ -60,7 +60,22 @@
 
 @media (min-width: 1250px){
 .contacts {
+    min-height:830px;
+    //убрать min-heigh!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    margin-top: 50px;
     width: 1050px;
     display: flex;
+    flex-direction: column;
+    position: relative;
+    &__map {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 50%;
+    }
+    &__wrapper {
+      width: 50%;
+      margin: 0;
+    }
 }
 }

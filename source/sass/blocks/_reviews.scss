@@ -178,8 +178,12 @@
 
     &__wrapper {
       width: 1050px;
-      background: url("../img/tablet/bg-reviews-tablet.jpg") no-repeat left;
+      background: url("../img/desktop/bg-reviews-desktop.jpg") no-repeat left;
       background-position: top left;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/desktop/bg-reviews-desktop2x.jpg");
+      }
     }
 
     &__br {

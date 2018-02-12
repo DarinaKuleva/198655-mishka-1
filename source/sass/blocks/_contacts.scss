@@ -6,7 +6,8 @@
   font-weight: 400;
   line-height: 30px;
   position: relative;
-    &::before {
+
+  &::before {
     content: "";
     position: absolute;
     left: 0;
@@ -38,10 +39,6 @@
 
   &__field--mail {
     width: 66.6668%;
-  }
-
-  &__field--mail {
-    width: 66.6668%;
     border-bottom: 1px solid $lite-green;
 
     &:hover {
@@ -57,7 +54,7 @@
 
   &__table {
     padding: 0;
-    border-spacing: 0px 42px;
+    border-spacing: 0 42px;
   }
 
   &__map {
@@ -89,10 +86,10 @@
     font-size: 17px;
 
     &::before {
-    top: -46px;
-    height: 17px;
-    background-image: url("../img/tablet/gray-line.png");
-  }
+      top: -46px;
+      height: 17px;
+      background-image: url("../img/tablet/gray-line.png");
+    }
 
     &__wrapper {
       width: 668px;
@@ -117,9 +114,9 @@
     }
 
     &__wrapper-btn {
-    width: 260px;
-    margin: 56px auto;
-  }
+      width: 260px;
+      margin: 56px auto;
+    }
   }
 
   .contacts__table tbody {
@@ -138,9 +135,9 @@
     position: relative;
 
     &::before {
-    top: -71px;
-    height: 23px;
-    background-image: url("../img/desktop/gray-line.png");
+      top: -71px;
+      height: 23px;
+      background-image: url("../img/desktop/gray-line.png");
     }
 
     &__map {
@@ -172,7 +169,6 @@
       padding-left: 175px;
     }
   }
-
 
   .contacts__table tbody {
     display: block;

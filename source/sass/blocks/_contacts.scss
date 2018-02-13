@@ -159,13 +159,22 @@
     }
 
     &__table {
-      padding-left: 175px;
+      padding-left: 134px;
+      border-spacing: 23px 25px;
     }
 
     &__wrapper-btn {
       width: 525px;
       margin: 0;
       padding-left: 175px;
+    }
+
+    &__field--mail {
+      width: 20%;
+    }
+
+    &__value {
+      width: 10%;
     }
   }
 

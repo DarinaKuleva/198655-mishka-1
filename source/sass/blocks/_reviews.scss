@@ -180,9 +180,11 @@
       width: 1050px;
       background: url("../img/desktop/bg-reviews-desktop.jpg") no-repeat left;
       background-position: top left;
+      background-size: 350px auto;
 
       @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/desktop/bg-reviews-desktop2x.jpg");
+      background-size: 350px auto;
       }
     }
 
@@ -212,7 +214,7 @@
 
     &__author {
       margin-top: 49px;
-      margin-bottom: 102px;
+      margin-bottom: 187px;
       padding-left: 174px;
       width: 25%;
     }

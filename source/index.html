@@ -112,7 +112,7 @@
             <picture>
                 <source media="(min-width: 1250px)" srcset="img/desktop/promo-img-desktop.jpg, img/desktop/promo-img-desktop2x.jpg">
                 <source media="(min-width: 768px)" srcset="img/tablet/promo-img-tablet.jpg, img/tablet/promo-img-tablet2x.jpg">
-                <img src="img/mobile/promo-img-mobile.jpg, img/mobile/promo-img-mobile.jpg" alt="вязаные карзинки">
+                <img src="img/mobile/promo-img-mobile.jpg" srcset="img/mobile/promo-img-mobile2x.jpg" alt="вязаные карзинки">
               </picture>
           </div>
           <div class="promo__footer">
@@ -219,7 +219,11 @@
             </tr>
           </table>
         </div>
-        <img class="contacts__map" src="img/mobile/map-mobile.jpg" width="322px" height="427px" alt="Карта">
+        <picture>
+          <source media="(min-width: 1250px)" srcset="img/desktop/map-desktop.jpg, img/desktop/map-desktop2x.jpg">
+          <source media="(min-width: 768px)" srcset="img/tablet/map-tablet.jpg, img/tablet/map-tablet2x.jpg">
+          <img class="contacts__map" src="img/mobile/map-mobile.jpg" srcset="img/mobile/map-mobile2x.jpg" width="322px" height="427px" alt="Карта">
+        </picture>
         <div class="contacts__wrapper-btn">
           <a class="contacts__send-us button" href="./">напишите нам</a>
         </div>

@@ -17,7 +17,8 @@
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../img/mobile/bg-cap2x.jpg");
-      bacground-size: 100%;
+      background-position: center -18px;
+      background-size: 575px auto;
     }
   }
 
@@ -137,7 +138,6 @@
 
     &__title--text {
       margin-top: 150px;
-      margin-bottom: 388px;
       font-size: 43px;
       line-height: 50px;
       padding-left: 100px;
